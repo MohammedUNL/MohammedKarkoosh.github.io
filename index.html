@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+<!---Ribbin-->
+        <h1 class="title">Mohammed Karkoosh</h1>
+            <a href="https://www.linkedin.com/in/mohammed-karkoosh-16593b279"><h3 class="linkin">LinkIn</h3></a>
+            <a href="https://github.com/MohammedUNL"><h3 class="github">GitHub</h3></a>
+            <a href="mohammedkakkroosh@gmail.com"><h3 class="email">Email</h3></a>
+            <a href=""><h3 class="resume">Resume</h3></a>
+        <div class="tab-titles">
+            <nav>
+                <ul>
+                    <li><a onclick="aboutMe('skills')">Skills</a></li>
+                    <li><a onclick="aboutMe('experience')">Projects</a></li>
+                    <li><a onclick="aboutMe('education')">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+            <li><a class="about-me" onclick="aboutMe('about-me-letter')"><h1>About <span>ME</span></h1></a></li>
+            <div class="about-me-text">
+                <div id="about-me-letter" class="text-content"  >
+                    <p>\\\</p>
+                </div>
+    
+                <div id="skills" class="text-content" style="display: none">
+                    <li>C - Intermediate</li>
+                    <li>Python - Intermediate</li>
+                    <li>JavaScript - Beginner</li>   
+                    <li>HTML - Beginner</li> 
+                    <li>CSS - Beginner</li>
+                    <li>SolidWorks</li>
+                    <li>Rivet</li>
+                    <li>AutoCad</li> 
+                    <li>Fluent in Arabic</li>
+                </div>
+    
+                <div id="experience" class="text-content" style="display: none">
+                    <li>Resume Website - 2023</li>
+                    <ul>HTML, JavaScript, CSS, GitHub</ul>
+                    <li>Tic Tac Toe Game - 2023 </li>
+                    <ul>MatLab</ul>
+                    <li>Pick Stick - 2023</li>
+                    <ul>SolidWorks</ul>
+                    <li>Budgeting Program - 2023</li>
+                    <ul>Python</ul>
+                    <li>Hangman Game - 2023</li>
+                    <ul>Matlab</ul>
+                    <li>Automatic Drawbridge - 2022</li>
+                    <ul>ROBOTICS</ul>
+                    <li>Higher Or Lower Game - 2020</li>
+                    <ul>JavaScript, Code.org</ul>
+                    <li>"Who am I" Webpage - 2019</li>
+                    <ul>HTML</ul>
+                </div>
+                
+                <div id="education" class="text-content" style="display: none">
+                    <li>Lincoln East Highschool</li>
+                        <ul>08/2019 - 05/2023</ul>
+                    <li>The Career Academy (TCA)</li>
+                        <ul>08/2020 - 05/2023</ul>
+                    <li>University Of Nebraska-Lincoln</li>
+                        <ul>08/2023 - 05/2027</ul>
+                </div>
+        </div>
+    </div>
+<!---Projects-->
+    <div id="projects">
+        <h2 class="project-title">MY PROJECTS</h2>
+        <div class="tabContainer">
+            <div class="buttonContainer">
+                <button onclick="openCity('bridge')">Bridge</button>
+                <button onclick="openCity('website')">Website</button>
+                <button onclick="openCity('hangman-game')">Hangman Game</button>
+                <button onclick="openCity('higher-lower-game')">Higher/Lower Game</button>
+            </div>
+        <div class="text-border">
+                <div id="bridge" class="tab-content"  >
+                    <p>TAb1Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br>veniam ratione? Dolores voluptatibus cupiditate error laboriosam molestias dolor?</p>
+                </div>
+    
+                <div id="website" class="tab-content" style="display: none">
+                    <p>TAb2Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br>veniam ratione? Dolores voluptatibus cupiditate error laboriosam molestias dolor?</p>
+                </div>
+    
+                <div id="hangman-game" class="tab-content" style="display: none">
+                    <p>TAb3Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br>veniam ratione? Dolores voluptatibus cupiditate error laboriosam molestias dolor?</p>
+                </div>
+                
+                <div id="higher-lower-game" class="tab-content" style="display: none">
+                    <p>TAb4Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br>veniam ratione? Dolores voluptatibus cupiditate error laboriosam molestias dolor?</p>
+                </div>
+        </div>
+
+        </div>
+    </div>
+ <script src="tab.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', 'Times New Roman', Times;
+        box-sizing: border-box;
+        background-position-x: none;
+}
+body{
+    background-color: bisque;
+}
+#header{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    background-color:rgba(205, 134, 63, 0.539);;
+    font: 'Times New Roman';
+    padding-inline-start: 41%;
+    color: rgb(165, 58, 42);
+    font-style:inherit;
+    font-weight: bolder;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.361);
+}
+.linkin{
+    color: #ff004f;
+    font-size: medium;
+    margin-top: -25px;
+    margin-left: 200px;
+    position: absolute;
+}
+.email{
+    color: #ff004f;
+    font-size: medium;
+    margin-top: -25px;
+    margin-left: 400px;
+    position: absolute;
+    
+}
+.resume{
+    color: #ff004f;
+    font-size: medium;
+    margin-top: -25px;
+    margin-left: 1230px;
+    position: absolute;
+}
+.github{
+    position: absolute;
+    color: #ff004f;
+    font-size: medium;
+    margin-top: -25px;
+    margin-left: 1430px;
+}
+.tab-titles{
+    color: rgb(165, 58, 42);
+    font-style:inherit;
+    font-weight: bolder;
+    margin-top: 14%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+nav{
+    position: relative;
+    justify-content: space-between;
+    font-size: large;
+    flex-wrap: wrap;
+}
+nav ul li{
+    list-style: none;
+    padding: 30px;
+    font: italic;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    color: rgb(209, 63, 5);
+    width: 40px; 
+    height: 0%;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: .3s;
+    
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+
+.about-me{
+    position: absolute;
+    color: rgb(165, 58, 42);
+    line-height: 1.5;
+    font-size: 20px;
+    margin-left: 54%;
+    font-style:inherit;
+    font-weight: bolder;
+    margin-top: -19%;
+    cursor: pointer;
+}
+.about-me::after{
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    transition: .3s;
+}
+.about-me:hover::after{
+    width:100%;
+}
+
+.about-me span{
+    color: peru;
+}
+.about-me-text{
+    margin-left: 49.5%;
+    margin-top: -16%;
+    color: #ff004f;
+    line-height: 1.5;
+}
+
+
+
+/*Pr0jects*/
+#projects{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.project-title{
+    font: 'Times New Roman';
+    margin-left:46.5%;
+    color: rgb(165, 58, 42);
+    font-style:inherit;
+    font-weight: bolder;
+
+}
+.text-border{
+    position: absolute;
+    width: 40%;
+    padding: auto;
+    padding-left: 10px;
+    border: 10px solid peru;
+    margin-top: -50px;
+    margin-left: 8%;
+    border-radius: 2%;
+    box-shadow: 0 2px 16px black;
+}
+.tab-content{
+    color: #ff004f;
+    font-size: large;
+    font-style: inherit;
+    line-height: 2;
+    font: Times;
+}
+.projects{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 65%;
+}
+
+.tabContainer .buttonContainer{
+    margin-left: 55%;
+    margin-top: 7%;
+}
+.tabContainer .buttonContainer button{
+    font-size: 24px;
+    border: none;
+    position: relative;
+    background: none;
+    color: #ff004f;
+    outline: none;
+    cursor: pointer;
+    
+    padding: 10px 20px;
+}
+.tabContainer .buttonContainer button:hover{
+   background-color: rgba(205, 134, 63, 0.691);
+}
+
+
+
+/* .tab-titles ::after{
+    width: 0%;
+    content: '';
+    transition: 0.5s;
+    height: 3px;
+    bottom: -2px;
+}
+.tab-titles.active-links::after{
+    width: 100%;
+} */
